@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header,
+.body,
+.footer {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+    margin-right: 48px;
+    gap: 12px;
+}
+
+.header .logo,
+.hero .heading {
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header .logo {
+    font-size: 24px;
+    
+}
+
+.hero,
+.footer,
+.header {
+    background-color: #1F2937;
+}
+
+.body .hero {
+    display: flex;
+}
+
+.hero .img-placeholder {
+    display: flex;
+    padding: 2cm;
+    background-color: gray;
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .footer-text {
+    color: #E5E7EB;
+    padding: 18px;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote .quote-text {
+    display: flex;
+    max-width: 50%;
+    flex-wrap: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    margin: 64px;
+}
